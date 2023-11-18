@@ -141,3 +141,9 @@ main {
 .task .actions .delete {
     color: crimson;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    color: var(--gray);
+    margin-bottom: 0.5rem;
+}
