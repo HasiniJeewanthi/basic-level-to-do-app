@@ -65,9 +65,13 @@ window.addEventListener('load', () => {
             list_elm.removeChild(task_elm);
         });
 
-
-        
-
+        const add_task_elm = document.querySelector("#new-task-input");
+        const btn_add_task = document.querySelector("#new-task-submit")
+        add_task_elm.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                btn_add_task.click();               
+            }
+        });
     });
 
 });
