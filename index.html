@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task List 2023</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Task List 2023</h1>
+        <form id="new-task-form">
+            <input 
+                type="text" 
+                id="new-task-input" 
+                placeholder="What do you have planned?">
+            <input 
+                type="submit" 
+                id="new-task-submit" 
+                value="Add task">
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+
+            <div id="tasks">
+                <div id="content">
+                    <input 
+                        type="text"
+                        class="text"
+                        value="My shiny tasks"
+                        readonly>
+                </div>
+                <div class="action">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+
+</html>
